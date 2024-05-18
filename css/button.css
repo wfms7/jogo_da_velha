@@ -1,0 +1,18 @@
+.button__container{
+    text-align: center;
+}
+
+.button__reset{
+    padding: 2rem 4rem;
+    background-color: var(--roxo);
+    border-radius: 10px;
+    font-size: 24px;
+    color: var(--rosa);
+    border: var(--roxo) solid 2px;
+    transition: background-color 1s ease;
+}
+
+.button__reset:hover{
+    background-color: var(--rosa);
+    color: var(--roxo);
+}

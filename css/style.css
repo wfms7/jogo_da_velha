@@ -1,0 +1,29 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(tableGame.css);
+@import url(button.css);
+@import url(alert.css);
+
+:root{
+    --rosa:#f5c2d4;
+    --roxo:#9061c2;
+    --lilas :#be80ff;
+    --azulclaro:#63d3ff;
+    --azul:#02779e;
+    
+    --font:"Exo 2", sans-serif;
+
+}
+
+body{
+    font-family: var(--font);
+    font-size: 16px;
+    color: var(--roxo);
+    background-color: var(--rosa);
+   
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}

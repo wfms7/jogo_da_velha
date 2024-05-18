@@ -1,0 +1,36 @@
+.alert__container{
+    display: flex;
+    flex-direction: column;
+    
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: var(--rosa);
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    padding: 2rem;
+    border: solid var(--roxo) 2px;
+    margin-top: 1rem;
+    border-radius: 20px;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.alert__container.show{
+    animation: fadeIn  1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  
+}

@@ -1,0 +1,11 @@
+.header__container {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: double var(--roxo) 5px;
+  
+}
+
+.header__texto {
+  padding: 0.5rem;
+
+}
